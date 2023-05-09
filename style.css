@@ -1,3 +1,77 @@
-h1{
-  color: darkcyan;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins',sans-serif;
+}
+body{
+  background: #081b29;
+  color: #ededed;
+}
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 10%;
+  background: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+.logo{
+  font-size: 25px;
+  color:blueviolet;
+  text-decoration: none;
+  font-weight: 600;
+}
+.navbar a {
+    font-size: 18px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px ;
+
+}
+.navbar a:hover,
+.navbar a.active{
+  color:#00abf0 ;
+  text-decoration:none ;
+}
+.home{
+  height: 100vh;
+  background-image: url('/images/h-heyerlein-BsWgMBfb208-unsplash.jpg') ;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  /* background-size: cover; */
+  background-position: center;
+  display: flex;
+  align-items: center;
+  padding: 0 10%;
+}
+.home-content{
+  max-width: 600px;
+}
+
+.home-content h1 {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.home-content h3 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #00abf0;
+}
+
+.home-content p {
+  font-size: 16px;
+  margin: 20px 0 40px;
+}
+
+.fab.fa-github {
+  font-size: 3rem;
 }
