@@ -25,6 +25,7 @@ body{
   font-size: 45px;
   color:blueviolet;
   text-decoration: none;
+  margin-right: 50px ;
   font-weight: 600;
 }
 
@@ -42,11 +43,11 @@ body{
 }
 
 .navbar a {
-    font-size: 18px;
+    font-size: 20px;
     color: #ededed;
     text-decoration: none;
     font-weight: 500;
-    margin-left: 35px ;
+    margin-left: 23px ;
 
 }
 
