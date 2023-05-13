@@ -1,12 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>A*</title>
-</head>
-<body>
-  <h1>HELLO WORLD!</h1>
-</body>
+<html>
+    <head>
+      <title>A* advanced algorithm</title>
+      <link href="/A star/A_star.css" media="all" rel="stylesheet" /> 
+      <script src="/A star/A_star.js"></script>
+    </head>
+
+    <body>
+
+         
+        <div style="text-align:center">
+            <h1 style="text-align:center; color:darkolivegreen; font-size:35px;"> A* algorithm</h1> 
+
+            <select id="options" onclick="button()">
+              <option value="10x10">10x10</option>
+              <option value="20x20">20x20</option>
+              <option value="30x30">30x30</option>
+              <option value="40x40">40x40</option>
+              <option value="50x50" selected="selected">50x50</option>
+              <option value="60x60">60x60</option>
+              <option value="70x70">70x70</option>
+              <option value="80x80">80x80</option>
+              <option value="90x90">90x90</option>
+              <option value="100x100">100x100</option>
+            </select>
+
+            <button type="button"  onclick="button()">Change</button> <h3>|<span id="path"></span>|</h3>
+    
+            <table id="table"  height="600px" width="100%"> 
+            </table>
+        </div>
+    </body>
+
 </html>
