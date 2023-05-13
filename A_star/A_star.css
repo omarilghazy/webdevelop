@@ -1,1 +1,15 @@
+td:hover {
+	background: blue;
+}
 
+table {
+	border-spacing: 0px;
+	border: 1px solid black;
+}
+
+body{
+	background-image:url('/images/annie-spratt-xvU-X0GV9-o-unsplash.jpg') ;
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+  background-size: 100% 100%;
+}
