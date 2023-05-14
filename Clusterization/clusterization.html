@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Clustering</title>
+    <link rel="stylesheet" href="Clustrization.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.orange-blue.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="icon" type="image/" href="\images\your-logo (1).png">
+</head>
+<body>
+
+  <a href="index.html">
+    <div class="logo">
+      <i class="fas fa-thin fa-code"></i>
+      <span style="color:cadetblue;">Y&M</span>
+    </div>
+  </a>
+<h1 style="text-align:center; color:bisque; font-size:35px;"> Clusterization algorithm</h1> 
+  <div class="canvas">
+    <canvas width="1300" height="375"></canvas>
+</div>
+
+<div class="content-grid mdl-grid">
+    <div class="mdl-cell mdl-cell--4-col">
+        <h3>Points</h3>
+
+        <div class="mdl-button-group">
+            <button class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect"
+                    id="add-data-points-manually" data-toggle="Turn off adding manually">Add manually
+            </button>
+            <button class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect"
+                    id="add-data-points-randomly">Add randomly
+            </button>
+            <form class="mg-top-20" action="#">
+                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                    <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?"
+                            id="add-data-points-randomly-count"
+                            value="50">
+                    <label class="mdl-textfield__label" for="add-data-points-randomly-count">Insert
+                        number</label>
+                    <span class="mdl-textfield__error">Input is not a number!</span>
+                </div>
+            </form>
+            <button class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect"
+                    id="remove-all-data-points">Remove all
+            </button>
+        </div>
+    </div>
+
+    <div class="mdl-cell mdl-cell--4-col">
+        <h3>Centroids</h3>
+
+        <div class="mdl-button-group">
+            <button class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect"
+                    id="add-centroids-manually" data-toggle="Turn off adding manually">Add manually
+            </button>
+            <button class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect"
+                    id="add-centroids-randomly">Add randomly
+            </button>
+            <form class="mg-top-20" action="#">
+                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                    <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?"
+                            id="add-centroids-randomly-count"
+                            value="2">
+                    <label class="mdl-textfield__label" for="add-data-points-randomly-count">Insert
+                        number</label>
+                    <span class="mdl-textfield__error">Input is not a number!</span>
+                </div>
+            </form>
+            <button class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect"
+                    id="remove-all-centroids">Remove all
+            </button>
+        </div>
+    </div>
+
+    <div class="mdl-cell mdl-cell--4-col">
+        <h3>Algorithm</h3>
+
+        <div class="mdl-button-group">
+            <button class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect"
+                    id="reassign-data-points">Reassign data points
+            </button>
+            <button class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect"
+                    id="update-centroids-positions">Update centroids' positions
+            </button>
+            <button class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" id="run-steps-in-loop"
+                    data-toggle="Stop running steps in loop">Run steps in loop
+            </button>
+            <form class="mg-top-20" action="#">
+                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                    <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?"
+                            data-toggle="Stop running steps in loop"
+                            id="run-steps-in-loop-milliseconds"
+                            value="500">
+                    <label class="mdl-textfield__label" for="add-data-points-randomly-count">
+                        In milliseconds
+                    </label>
+                    <span class="mdl-textfield__error">Input is not a number!</span>
+                </div>
+            </form>
+            <label>Distance function:
+                <select id="distance-function"></select>
+            </label>
+        </div>
+    </div>
+</div>
+
+<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+<script src="ss.js"></script>
+</body>
+</html>
