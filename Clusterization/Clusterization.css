@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+body{
+	background-image:url('/images/shapelined-_JBKdviweXI-unsplash.jpg');
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+  background-size: 100% 100%;
+}
+.logo{
+  position:relative;
+  font-size: 45px;
+  color:bisque;
+  text-decoration: none;
+  margin-left: 100px;
+  margin-top: 25px ;
+  font-weight: 600;
+}
+.canvas {
+  /*width: 90%;*/
+  margin: 0 auto;
+  margin-left: 60px;
+}
+
+canvas {
+  border: 5px solid orange;
+}
+
+.mg-top-20 {
+  margin-top: 20px;
+}
+
+.mg-auto {
+  margin: 0 auto;
+}
+
+.full-width {
+  width: 100% !important;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mdl-textfield {
+  width: 120px !important;
+}
