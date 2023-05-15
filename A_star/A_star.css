@@ -6,6 +6,15 @@ table {
 	border-spacing: 0px;
 	border: 1px solid black;
 }
+.logo{
+  position:relative;
+  font-size: 45px;
+  color:beige;
+  text-decoration: none;
+  margin-left: 90px;
+  margin-top: 25px ;
+  font-weight: 600;
+}
 
 body{
 	background-image:url('/images/annie-spratt-xvU-X0GV9-o-unsplash.jpg') ;
