@@ -48,13 +48,12 @@ body{
     text-decoration: none;
     font-weight: 500;
     margin-left: 23px ;
-
 }
 
 .navbar a:hover,
 .navbar a.active{
-  color:orangered;
-  text-decoration: none;
+  color:#00abf0;
+  text-decoration:none;
 }
 
 
