@@ -86,12 +86,10 @@ function generate(cols, rows){
 		}
 		element.appendChild(row);
 	}
-	//console.log("Hello World");
 
 }
 
 
-//clears all of the colored path array. 
 function clear() {
 	//console.log("Iam in");
 	for (var i = 0; i < from_to.length; i++) {
