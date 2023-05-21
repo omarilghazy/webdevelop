@@ -1,0 +1,30 @@
+body{
+	background-color:gray;
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+#dashboard {
+	padding: 0px 0px;
+}
+
+canvas {
+	display: block;
+	max-width: auto;
+	max-height: auto;
+}
+
+#points {
+	width: 20%;
+}
+
+.logo{
+  position:relative;
+  font-size: 45px;
+  color:lavender;
+  text-decoration: none;
+  margin-left: 90px;
+  margin-top: 25px ;
+  font-weight: 600;
+}
