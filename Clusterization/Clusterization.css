@@ -2,7 +2,9 @@
   box-sizing: border-box;
 }
 body{
-	background-image:url('/images/shapelined-_JBKdviweXI-unsplash.jpg');
+	/* background-image:url('/images/shapelined-_JBKdviweXI-unsplash.jpg'); */
+	background-image:url('https://4kwallpapers.com/images/walls/thumbs_3t/5889.jpg');
+  /* background-color: #363636; */
 	background-repeat:no-repeat;
 	background-attachment: fixed;
   background-size: 100% 100%;
@@ -10,16 +12,29 @@ body{
 .logo{
   position:relative;
   font-size: 45px;
-  color:bisque;
+  color:darkgray;
   text-decoration: none;
   margin-left: 100px;
-  margin-top: 20px ;
+  margin-top: 30px ;
   font-weight: 600;
 }
 .canvas {
   /*width: 90%;*/
   margin: 0 auto;
   margin-left: 60px;
+}
+
+h1 {
+  color: white !important;
+}
+h3 {
+  color: white !important;
+}
+input, label {
+  color: white !important;
+}
+button {
+  color: black;
 }
 
 canvas {
@@ -40,6 +55,7 @@ canvas {
 
 .text-center {
   text-align: center;
+  color: black !important;
 }
 
 .mdl-textfield {
